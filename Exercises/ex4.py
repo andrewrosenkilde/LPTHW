@@ -12,7 +12,7 @@ cars_not_driven = cars - drivers
 # defines the variable cars_driven as the value of
 # the variable drivers
 cars_driven = drivers
-# defines carpool_capacity as the math of 
+# defines carpool_capacity as the math of
 # cars_driven * space_in_a_car
 carpool_capacity = cars_driven * space_in_a_car
 # defines the variable average_passengers_per_car
