@@ -1,11 +1,20 @@
-import time
-grav_scalr = 9.8
-print "Welcome to the Physics Equation Machination!"
-time.sleep(2)
-print "This program will help you find the weight of something."
-time.sleep(2)
-mass_in_kg = input('Mass in kilograms: ')
-weight_in_newtons = mass_in_kg * grav_scalr
-print "Working..."
-time.sleep(3)
-print "The object weighs %s Newtons." % weight_in_newtons
+tabby_cat = "\tI'm tabbed in."
+persian_cat = "I'm split\non a line."
+backslash_cat = "I'm \\ a \\ cat."
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print tabby_cat
+print persian_cat
+print backslash_cat
+print fat_cat
+
+print "Extra bit of fun code"
+while True:
+  for i in ["/","-","|","\\",",","|"]:
+    print "%s\r" % i,
